@@ -1,6 +1,7 @@
 import * as React from 'react';
 import AccorditationComponent from './Components/AccorditationComponent';
 import ButtonGrou from './Components/ButtonGroup';
+import CardComponents from './Components/CardComponents';
 
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
       <ButtonGrou></ButtonGrou>
       <AccorditationComponent />
+      <CardComponents />
     </div>
   );
 }
