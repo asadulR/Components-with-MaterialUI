@@ -2,6 +2,7 @@ import * as React from 'react';
 import AccorditationComponent from './Components/AccorditationComponent';
 import ButtonGrou from './Components/ButtonGroup';
 import CardComponents from './Components/CardComponents';
+import TabDesign from './Components/TabDesign';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <ButtonGrou></ButtonGrou>
       <AccorditationComponent />
       <CardComponents />
+      <TabDesign />
     </div>
   );
 }
